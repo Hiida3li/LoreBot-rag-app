@@ -4,7 +4,7 @@ class Settings(BaseSettings):
     APP_NAME: str
     APP_VERSION: str
     OPEN_API_KEY: str
-    FILE_ALLOWED_TYPES: list
+    FILE_ALLOWED_TYPES : list
     FILE_MAX_SIZE:  int
 
     
@@ -12,3 +12,4 @@ class Settings(BaseSettings):
 
 def get_settings():
     return Settings()
+    
